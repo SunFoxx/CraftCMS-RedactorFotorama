@@ -50,6 +50,7 @@ class RedactorFotoramaPlugin extends BasePlugin
 			if (craft()->request->isCpRequest())
 			{
 				craft()->templates->includeJsResource('redactorfotorama/fotorama.js');
+				craft()->templates->includeCssResource('redactorfotorama/fotorama.css');
 			}
 		}
 	}
